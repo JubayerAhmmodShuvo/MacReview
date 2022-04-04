@@ -13,7 +13,7 @@ const Blog = () => {
   </div>
         <div className=' bg-violet-200 rounded p-5 mb-4' >
           <h1 className="text-left text-3xl font-semibold mb-4  "> Question 3: Difference between inline, block & inline-block element?</h1>
-          <p className="text-left text-lg mb-6 text-justify"></p>
+        <p className="text-left text-lg mb-6 text-justify"> There is three display properties : <strong>inline, block ,inline-block</strong>. <strong>Block: </strong>It occupies the entire horizontal space of its parent element. Always start on a new line.<strong> Inline: </strong> Does not start on a new line, its width and height are determined by the content and not affected by width, height, margin-top, margin-bottom properties. Affected by horizontal padding and margin. Affected by padding-top and padding-bottom, but only visually. Other elements will not respect the vertical paddings. <strong>Inline-block: </strong> an inline element that respects margin, width and height. </p>
   </div>
   </div>
   );
