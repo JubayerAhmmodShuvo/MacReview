@@ -21,7 +21,11 @@ Connect your 14-inch or 16-inch MacBook Pro to a power outlet using the included
           <img className='h-96 lg:mt-32 ' src={ sd} alt="" />
         </div>
       </div>
-
+      <div className=" grid grid-cols-3 ">
+        <div className="grid-cols-1"></div>
+        <div className="grid-cols-1"></div>
+        <div className="grid-cols-1"></div>
+      </div>
 
     </div>
   );
