@@ -3,36 +3,42 @@
     "id": "624abae41bc155c2da5bfc0a",
     "rating": 3.99,
     "name": "Selma Le",
+    "description":"This product is the best. You can't go wrong with this one. ",
     "img": "https://media.istockphoto.com/photos/smiling-indian-business-man-working-on-laptop-at-home-office-young-picture-id1307615661?b=1&k=20&m=1307615661&s=170667a&w=0&h=Zp9_27RVS_UdlIm2k8sa8PuutX9K3HTs8xdK0UfKmYk="
   },
   {
     "id": "624abae47b782e17e9eec942",
     "rating": 5.00,
     "name": "William Faulkner",
+    "description":"Best MacBook ever had. ",
     "img": "https://assets.entrepreneur.com/content/3x2/2000/20150820205507-single-man-outdoors-happy-bliss.jpeg"
   },
   {
     "id": "624abae4131091d09107e742",
     "rating": 4.50,
     "name": "Mattie Carroll",
+    "description":"The development work is a slice of a cake with machine. ",
     "img": "https://media.istockphoto.com/photos/mature-handsome-business-man-picture-id1040308104?k=20&m=1040308104&s=612x612&w=0&h=zZOpj7CCxprdPAMkeGJP7RW76_7TpfKA2BZSOm8hZvY="
   },
   {
     "id": "624abae41ab0fb7874b41987",
     "rating": 4.25,
     "name": "Clemons Santiago",
+    "description":"Anyone with creative mind can go far with analysis with this beast. ",
     "img": "https://static.toiimg.com/thumb/msid-69707516,imgsize-202568,width-400,resizemode-4/69707516.jpg"
   },
   {
     "id": "624abae42c94ced88d60ffc9",
     "rating": 4.91,
     "name": "Mcintyre Hendrix",
+    "description":"Editing is my hobby and this machine can edit things faster that anyone can think ",
     "img": "https://omf.org/us/wp-content/uploads/2019/06/single-men-in-missions.jpg"
   },
   {
     "id": "624abae4be7e565920d47ae9",
     "rating": 4.3,
     "name": "Candice Klein",
+    "description":"I always try to find the best of all product and nothing is as good at this machine.",
     "img": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-01/solo-pride-kb-inline-220119-e364fb.jpg"
   }
 ]

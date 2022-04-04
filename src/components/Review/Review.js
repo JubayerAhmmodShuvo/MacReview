@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <div>
       <h1 className='italic text-3xl '>Total review: {review.length}</h1>
-      <div className="mt-12 lg:mt-24 grid lg:grid-cols-3 gap-10 md:grid-cols-2 lg:mx-14 mx-8 mb-20">
+      <div className="mt-12 lg:mt-24 grid lg:grid-cols-3 gap-10 md:grid-cols-2 lg:mx-14 mx-8 mb-20 ">
          {
         review.map(review => <SingleReview
           key={review.id}
