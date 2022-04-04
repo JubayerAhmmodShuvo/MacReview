@@ -57,7 +57,7 @@ const Chart = () => {
           </div>
           <div className="grid-cols-1">
                 <ComposedChart
-          width={500}
+          width={400}
           height={400}
           data={data}
           margin={{
