@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import sd from '../../images/ee.png'
+import UserReview from '../hooks/UserReview';
+import SingleReview from '../SingleReview/SingleReview';
 
 const Home = () => {
+   const [review, setReview]=UserReview();
   return (
     <div>
       <div className="grid lg:grid-cols-3 gap-9 lg:mb-10 mb-24">
@@ -21,12 +24,22 @@ Connect your 14-inch or 16-inch MacBook Pro to a power outlet using the included
           <img className='h-96 lg:mt-32 ' src={ sd} alt="" />
         </div>
       </div>
-      <div className=" grid grid-cols-3 ">
-        <div className="grid-cols-1"></div>
-        <div className="grid-cols-1"></div>
-        <div className="grid-cols-1"></div>
+      <div className="text-4xl p-10 lg:mt-12 md:mt-12">
+        <h1>Total Comments: 3</h1>
       </div>
-
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-10 lg:mx-24 lg:mt-16 md:mb-10">
+        {
+          review.slice(0, 3).map(review =>
+           
+            <SingleReview
+            key={review.id}
+            review={review}
+          />
+          )
+        }
+      
+      </div>
+      <button className='text-xl text-white font-semibold  px-14 py-3 bg-indigo-500 rounded lg:mb-16 mb-12 mt-10'><Link to="/reviews" >See all reviews</Link></button>
     </div>
   );
 };
