@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className=" bg-green-50	 p-6 mb-10">
+    <div className=" p-8	  mb-10  sticky top-0">
      
 
       <nav className="  text-xl space-x-8 font-medium  ">

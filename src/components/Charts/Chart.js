@@ -13,7 +13,7 @@ const Chart = () => {
     
     <>
       <ResponsiveContainer width="100%" height="100%">
-        <div className="grid grid-cols-1 lg:grid-cols-3 p-8 lg:p-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 p-8 lg:p-10 md:gap-10 ">
          <div className="grid-cols-1 mb-10">
            <BarChart width={400} height={400}data={data} className='h-screen w-screen'>
       <Bar dataKey="sell" fill="#8884d8" />
